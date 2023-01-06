@@ -1,0 +1,46 @@
+/*styles
+background-color: burlywood;
+ font-size: 22px;*/
+
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+.main{
+    color: rgb(185, 215, 241);
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+
+}
+
+.heading{
+    font-family: 'Averia Gruesa Libre';
+   
+}
+
+#linksID{
+    text-align: left;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    height: 200px;
+    float: right;
+    width: 19%;
+    padding: 6px;
+   
+  
+  }
+
+  .image{
+    height: 130px;
+    object-fit: contain; 
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+     clear: both;
+    display: table;
+    height: 10px;
+  } 
