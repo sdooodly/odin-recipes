@@ -1,63 +1,68 @@
-
-body{
-  background-color: black;
+body {
+  /*background-color: black;*/
   background-image: url(/images/abstract-background.jpg);
   background-attachment: fixed;
 }
-.main{
-    /*background-color: rgb(24, 8, 23);*/
-    color: rgb(255, 255, 255);
-    
-    font-family: Arial, sans-serif;
-    text-align: left; 
-  
-}
-.heading{
+
+.main {
+  /*background-color: rgb(24, 8, 23);*/
+  color: rgb(255, 255, 255);
+
+  font-family: Arial, sans-serif;
+  text-align: left;
 
 }
-.summary{
-padding-left: 30em;
-padding-right: 30em;
 
+.heading {}
 
-}
-.link{
+.summary {
   padding-left: 30em;
   padding-right: 30em;
 }
 
-a{
-  background-color: rgba(255, 255, 255, 0.7);
- 
+.link {
+  padding-left: 30em;
+  padding-right: 30em;
 }
 
- .quote, .heading, p{
+a {
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.quote,
+.heading,
+p {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quote, .Ratatouille, .heading, p{
+.quote,
+.Ratatouille,
+.heading,
+p {
   text-align: center;
   border-radius: 50%;
 }
 
-.rounded{
+.rounded {
   border-radius: 50%;
-  
-}
-.quote{
 
 }
+
+.quote {}
 
 
 /*This is for the sub sites*/
-.firstpic{
-  max-width:25%;
+.firstpic {
+  max-width: 25%;
   height: auto;
-  
+
 }
-.links{
+
+.links {
   text-align: center;
 }
-.first-pic-div{
+
+.first-pic-div {
   text-align: center;
 }
