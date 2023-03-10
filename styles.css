@@ -12,22 +12,52 @@ body{
     text-align: left; 
   
 }
+.heading{
 
- .quote, .heading{
-  background-color: black;
+}
+.summary{
+padding-left: 30em;
+padding-right: 30em;
+
+
+}
+.link{
+  padding-left: 30em;
+  padding-right: 30em;
+}
+
+a{
+  background-color: rgba(255, 255, 255, 0.7);
+ 
+}
+
+ .quote, .heading, p{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote, .Ratatouille, .heading, p{
+  text-align: center;
+  border-radius: 50%;
+}
+
+.rounded{
+  border-radius: 50%;
+  
+}
+.quote{
+
 }
 
 
-
-
-.quote, .Ratatouille, .heading{
+/*This is for the sub sites*/
+.firstpic{
+  max-width:25%;
+  height: auto;
+  
+}
+.links{
   text-align: center;
 }
-/*This is for the sub sites*/
- .image{
-  width: fit-content;
-  height: 2em;
- }
-
-
-
+.first-pic-div{
+  text-align: center;
+}
