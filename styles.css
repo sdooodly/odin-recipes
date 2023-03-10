@@ -1,124 +1,33 @@
-/*styles
-background-color: burlywood;
- font-size: 22px;*/
 
 body{
-    background-color: rgb(0, 25, 51);
-    
+  background-color: black;
+  background-image: url(/images/abstract-background.jpg);
+  background-attachment: fixed;
 }
 .main{
+    /*background-color: rgb(24, 8, 23);*/
     color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', serif;
-    text-align: center;
-
-}
-
-.heading{
-    font-family: 'Averia Gruesa Libre';
-   
-}
-
-#linksID{
-    text-align: left;
-}
-
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    height: 200px;
-    float: right;
-    width: 19%;
-    padding: 6px;
-   
+    
+    font-family: Arial, sans-serif;
+    text-align: left; 
   
-  }
-
-  .image{
-    height: 130px;
-    object-fit: contain; 
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-     clear: both;
-    display: table;
-    height: 10px;
-  } 
-
-
-
-
-/*new code */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: left;
 }
 
-header {
-  background-color: #F5F5F5;
+ .quote, .heading{
+  background-color: black;
+}
+
+
+
+
+.quote, .Ratatouille, .heading{
   text-align: center;
-  padding: 20px;
-  border-bottom: 1px solid #DDDDDD;
 }
+/*This is for the sub sites*/
+ .image{
+  width: fit-content;
+  height: 2em;
+ }
 
-h1 {
-  margin: 0;
-  font-size: 36px;
-}
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  text-align: left;
-}
 
-.left {
-  width: 50%;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
-.right {
-  width: 50%;
-  padding-left: 20px;
-  box-sizing: border-box;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  width: 33%;
-  padding: 5px;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  
-  .left,
-  .right {
-    width: 100%;
-    padding: 0;
-  }
-  
-  .gallery img {
-    width: 50%;
-  }
-}
