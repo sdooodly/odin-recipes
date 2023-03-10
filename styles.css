@@ -1,46 +1,63 @@
-/*styles
-background-color: burlywood;
- font-size: 22px;*/
 
 body{
-    background-color: rgb(0, 0, 0);
-    
+  background-color: black;
+  background-image: url(/images/abstract-background.jpg);
+  background-attachment: fixed;
 }
 .main{
-    color: rgb(185, 215, 241);
-    font-family: 'Times New Roman', serif;
-    text-align: center;
-
+    /*background-color: rgb(24, 8, 23);*/
+    color: rgb(255, 255, 255);
+    
+    font-family: Arial, sans-serif;
+    text-align: left; 
+  
 }
-
 .heading{
-    font-family: 'Averia Gruesa Libre';
-   
+
+}
+.summary{
+padding-left: 30em;
+padding-right: 30em;
+
+
+}
+.link{
+  padding-left: 30em;
+  padding-right: 30em;
 }
 
-#linksID{
-    text-align: left;
+a{
+  background-color: rgba(255, 255, 255, 0.7);
+ 
 }
 
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    height: 200px;
-    float: right;
-    width: 19%;
-    padding: 6px;
-   
-  
-  }
+ .quote, .heading, p{
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  .image{
-    height: 130px;
-    object-fit: contain; 
-  }
+.quote, .Ratatouille, .heading, p{
+  text-align: center;
+  border-radius: 50%;
+}
+
+.rounded{
+  border-radius: 50%;
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-     clear: both;
-    display: table;
-    height: 10px;
-  } 
+}
+.quote{
+
+}
+
+
+/*This is for the sub sites*/
+.firstpic{
+  max-width:25%;
+  height: auto;
+  
+}
+.links{
+  text-align: center;
+}
+.first-pic-div{
+  text-align: center;
+}
