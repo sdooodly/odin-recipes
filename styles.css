@@ -10,23 +10,20 @@ body {
 .main {
   /*background-color: rgb(24, 8, 23);*/
   color: rgb(255, 255, 255);
-
-  font-family: Arial, sans-serif;
-  text-align: left;
+  font-family: 'Times New Roman', Times, serif sans-serif;
+  text-align: center;
 
 }
 
-.heading {}
+
 
 .summary {
-  padding-left: 30em;
-  padding-right: 30em;
+  padding: 10px auto;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.link {
-  padding-left: 30em;
-  padding-right: 30em;
-}
 
 a {
   background-color: rgba(255, 255, 255, 0.7);
@@ -34,17 +31,22 @@ a {
 }
 
 .quote,
-.heading,
 p {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quote,
-.Ratatouille,
-.heading,
-p {
-  text-align: center;
+p{
+  
   border-radius: 50%;
+}
+
+.Ratatouille{
+  
+  border-radius: 50%;
+ 
+  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
 }
 
 .rounded {
@@ -52,7 +54,6 @@ p {
 
 }
 
-.quote {}
 
 
 /*This is for the sub sites*/
@@ -69,3 +70,122 @@ p {
 .first-pic-div {
   text-align: center;
 }
+
+
+/*footer*/
+/* Style the footer */
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 30px;
+  margin: 0 30px;
+}
+
+
+/* Style the contact-me column */
+.contact-me {
+  padding: 0 30px;
+  text-align: center;
+}
+
+/* Style the transparent icons */
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Style the LinkedIn icon */
+.linkedin-icon {
+  background-image: url("https://www.linkedin.com/favicon.ico");
+}
+
+/* Style the GitHub icon */
+.github-icon {
+  background-image: url("https://github.com/favicon.ico");
+}
+
+/* Style the Gmail icon */
+.gmail-icon {
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r2.png");
+  background-size: cover;
+}
+
+      /* Style the header */
+      header {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 30px;
+  margin: 0 30px;
+      }
+
+      /* Style the logo */
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+        margin: 0;
+      }
+
+      /* Style the navigation menu */
+      nav {
+        display: inline-block;
+        float: right;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+      }
+
+      nav a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+      }
+
+      nav a:hover {
+        background-color: #333;
+        color: #f8f8f8;
+      }
+
+      /* Style the dropdown menu */
+      .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        display: none;
+      }
+
+      .dropdown li {
+        display: block;
+        margin: 0;
+      }
+
+      .dropdown a {
+        background-color: #f8f8f8;
+        color: #333;
+      }
+
+      .dropdown a:hover {
+        background-color: #333;
+        color: #f8f8f8;
+      }
+
+      /* Show the dropdown menu on hover */
+      nav li:hover .dropdown {
+        display: block;
+      }
