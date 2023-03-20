@@ -189,3 +189,10 @@ p{
       nav li:hover .dropdown {
         display: block;
       }
+
+
+      /*image*/
+      img {
+        max-width: 100%;
+        height: auto;
+      }
