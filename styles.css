@@ -53,7 +53,7 @@ img {
 
 /*This is for the sub sites*/
 .firstpic {
-  max-width: 25%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -134,6 +134,7 @@ header {
 nav {
   display: inline-block;
   float: right;
+  
 }
 
 nav ul {
