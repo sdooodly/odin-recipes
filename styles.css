@@ -1,14 +1,12 @@
 body {
-  /*background-color: black;*/
+
   background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(31, 18, 50), rgb(0, 0, 0));
-  /*background-image: url(/images/abstract-background.jpg);
-  background-attachment: fixed;*/
-  
-  
+
+
 }
 
 .main {
-  /*background-color: rgb(24, 8, 23);*/
+
   color: rgb(255, 255, 255);
   font-family: 'Times New Roman', Times, serif sans-serif;
   text-align: center;
@@ -20,47 +18,43 @@ body {
 .summary {
   padding: 10px auto;
   max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+  margin: 100px auto;
+  text-align: left;
 }
 
 
 a {
   background-color: rgba(255, 255, 255, 0.7);
-
 }
 
-.quote,
 p {
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-p{
-  
   border-radius: 50%;
 }
 
-.Ratatouille{
-  
+
+.Ratatouille {
   border-radius: 50%;
- 
   margin: 0 auto;
   text-align: center;
   margin: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .rounded {
   border-radius: 50%;
-
 }
-
-
 
 /*This is for the sub sites*/
 .firstpic {
   max-width: 25%;
   height: auto;
-
 }
 
 .links {
@@ -73,11 +67,12 @@ p{
 
 
 /*footer*/
-/* Style the footer */
 .footer {
+  position: relative;
+  bottom: 0;
   background-color: #000000;
   color: white;
-  padding: 30px;
+  padding: 10px 30px;
   margin: 0 30px;
 }
 
@@ -88,7 +83,11 @@ p{
   text-align: center;
 }
 
-/* Style the transparent icons */
+.quote{
+  font-size: smaller;
+}
+
+
 .icon {
   display: inline-block;
   margin: 0 10px;
@@ -114,85 +113,78 @@ p{
   background-size: cover;
 }
 
-      /* Style the header */
-      header {
-        background-color: #000000;
-        color: #ffffff;
-        padding: 30px;
+/* Style the header */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
   margin: 0 30px;
-      }
+}
 
-      /* Style the logo */
-      .logo {
-        font-size: 24px;
-        font-weight: bold;
-        text-transform: uppercase;
-        display: inline-block;
-        margin: 0;
-      }
+/* Style the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+}
 
-      /* Style the navigation menu */
-      nav {
-        display: inline-block;
-        float: right;
-      }
+/* Style the navigation menu */
+nav {
+  display: inline-block;
+  float: right;
+}
 
-      nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-      nav li {
-        display: inline-block;
-        margin-left: 20px;
-        position: relative;
-      }
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+}
 
-      nav a {
-        color: #333;
-        text-decoration: none;
-        display: block;
-        padding: 10px;
-      }
+nav a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
 
-      nav a:hover {
-        background-color: #333;
-        color: #f8f8f8;
-      }
+nav a:hover {
+  background-color: #32163f;
+  color: #f8f8f8;
+}
 
-      /* Style the dropdown menu */
-      .dropdown {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 1;
-        display: none;
-      }
+/* Style the dropdown menu */
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
 
-      .dropdown li {
-        display: block;
-        margin: 0;
-      }
+.dropdown li {
+  display: block;
+  margin: 0;
+}
 
-      .dropdown a {
-        background-color: #f8f8f8;
-        color: #333;
-      }
+.dropdown a {
+  background-color: #f8f8f8;
+  color: #333;
+}
 
-      .dropdown a:hover {
-        background-color: #333;
-        color: #f8f8f8;
-      }
+.dropdown a:hover {
+  background-color: #333;
+  color: #f8f8f8;
+}
 
-      /* Show the dropdown menu on hover */
-      nav li:hover .dropdown {
-        display: block;
-      }
-
-
-      /*image*/
-      img {
-        max-width: 100%;
-        height: auto;
-      }
+/* Show the dropdown menu on hover */
+nav li:hover .dropdown {
+  display: block;
+}
